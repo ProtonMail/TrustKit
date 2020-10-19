@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors      = 'Alban Diquet', 'Angela Chow', 'Eric Castro'
   s.source       = { :git => "https://github.com/datatheorem/TrustKit.git", :tag => "#{s.version}" }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.13'
   s.tvos.deployment_target = '11.0'
   s.watchos.deployment_target = '4.0'
